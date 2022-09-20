@@ -78,7 +78,7 @@ void vendor_load_properties()
 	} else if (strstr(bootloader, "G935U")) {
 		/* all other variants become USA Unbranded */
 		property_set("ro.product.model", "SM-G935U");
-		property_set("ro.product.name", "hero2qlteusa");
+		property_set("ro.product.name", "hero2qlteue");
 	}
 	property_set("ro.product.device", "hero2qlte");
 }
